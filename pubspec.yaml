@@ -1,0 +1,83 @@
+name: blackhole
+description: An Open Source Music Player App.
+
+# Prevent accidental publishing to pub.dev.
+publish_to: "none"
+
+version: 1.15.8+39
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+  flutter: ">=3.0.0"
+
+dependencies:
+  app_links: ^3.4.3
+  audio_service: ^0.18.10
+  audiotagger:
+    git:
+      url: https://github.com/Sangwan5688/Audiotagger
+      ref: 90f2db5
+  # bitsdojo_window: ^0.1.1+1 #For Desktops
+  cached_network_image: ^3.2.3
+  carousel_slider: ^4.2.1
+  connectivity_plus: ^4.0.1
+  cupertino_icons: ^1.0.5
+  dart_des: ^1.0.2
+  device_info_plus: ^9.0.2
+  file_picker: ^5.3.2
+  flip_card: ^0.7.0
+  flutter:
+    sdk: flutter
+  flutter_archive: ^5.0.0
+  flutter_displaymode: ^0.6.0
+  # flutter_downloader: ^1.7.1
+  flutter_localizations:
+    sdk: flutter
+  flutter_lyric: ^2.0.4+6
+  get_it: ^7.6.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  html_unescape: ^2.0.0
+  just_audio: ^0.9.34
+  # Discontinued, Use just_audio_windows instead.
+  # just_audio_libwinmedia: ^0.0.4 # For windows and linux.
+  logging: ^1.2.0
+  marquee: ^2.2.3
+  material_design_icons_flutter: 5.0.5955-rc.1
+  metadata_god: ^0.4.1
+  on_audio_query: ^2.9.0
+  package_info_plus: ^4.0.2
+  palette_generator: ^0.3.3+2
+  path_provider: ^2.0.15
+  permission_handler: ^10.3.0
+  receive_sharing_intent: ^1.4.5
+  salomon_bottom_bar: ^3.3.2
+  share_plus: ^7.0.2
+  sliding_up_panel: ^2.0.0+1
+  url_launcher: ^6.1.11
+  uuid: ^3.0.7
+  youtube_explode_dart: ^1.12.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.1.2
+  msix: ^3.14.2
+
+flutter:
+  uses-material-design: true
+
+  # Enable generation of localized Strings from arb files.
+  generate: true
+
+  assets:
+    # Add assets to the application.
+    - assets/
+
+msix_config:
+  display_name: BlackHole
+  publisher_display_name: Ankit Sangwan
+  identity_name: com.shadow.blackhole
+  icons_background_color: transparent
+  logo_path: assets/ic_launcher.png
+  file_extension: .mp3, .m4a
