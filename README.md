@@ -6,4 +6,4 @@ https://web.archive.org/web/20230626124654/https://codeload.github.com/Sangwan56
 
 This is the Last Original Commit 
 
-The Original Auhtor is Ankit Sangwan , any other people who claim copyright are fraudsters .
+The Original Auhtor is Ankit Sangwan , other people who claim copyright are fraudsters .
