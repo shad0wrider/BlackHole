@@ -8,6 +8,6 @@ This is the Last Original Commit
 
 The Original Auhtor is Ankit Sangwan , other people who claim copyright are fraudsters .
 
-Link to last apk : https://web.archive.org/web/20240130154218mp_/https://codeload.github.com/Sangwan5688/BlackHole/zip/refs/tags/v1.15.10
+Link to last Version : https://web.archive.org/web/20240130154218mp_/https://codeload.github.com/Sangwan5688/BlackHole/zip/refs/tags/v1.15.10
 
 I won't be uploading the apk as a release as I people will call it a virus. I recommend building it from source.
